@@ -1,0 +1,12 @@
+// Vitest Snapshot v1
+
+exports[`add attr Disabled 1`] = `
+<body>
+  <button
+    disabled=""
+    id="button"
+  >
+    event
+  </button>
+</body>
+`;

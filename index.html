@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+			<div class="tudo">
+				<form class="area-input">
+					<input placeholder="Nova tarefa">
+					<button>Adicionar</button>
+				</form>
+				<div class="list" data-tudo-tasks>
+					<div class="item">
+						<div class="task">
+							<span class="name"></span>
+							<div class="button" role="button">Finalizar</div>
+							<div class="button" role="button">Remover</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

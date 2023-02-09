@@ -1,0 +1,227 @@
+// Vitest Snapshot v1
+
+exports[`Tudo list > Deve retornar nova template 1`] = `
+"<div class=\\"task \\" >
+<span class=\\"name\\">exemplo</span>
+<div class=\\"button\\" data-finish data-task=\\"10\\" role=\\"button\\">Finalizar</div>
+<div class=\\"button\\" data-remove data-task=\\"10\\" role=\\"button\\">Remover</div>
+</div><div class=\\"task finish\\" >
+<span class=\\"name\\">exemplo 2</span>
+<div class=\\"button\\" data-finish data-task=\\"20\\" role=\\"button\\">Reativar</div>
+<div class=\\"button\\" data-remove data-task=\\"20\\" role=\\"button\\">Remover</div>
+</div>"
+`;
+
+exports[`Tudo list events DOM > Deve adicionar a template inicial 1`] = `
+<body>
+  <div
+    id="app"
+  />
+</body>
+`;
+
+exports[`Tudo list events DOM > Deve fazer o fluxo de tarefas 1`] = `
+<body>
+  <div
+    id="app"
+  >
+    
+	
+    <div
+      class="tudo"
+    >
+      
+		
+      <form
+        class="area-input"
+        data-submit=""
+      >
+        
+			
+        <input
+          data-input=""
+          placeholder="Nova tarefa"
+          required=""
+        />
+        
+			
+        <button>
+          Adicionar
+        </button>
+        
+		
+      </form>
+      
+		
+      <div
+        class="list"
+        data-tudo-tasks=""
+      >
+        <div
+          class="task "
+        >
+          
+
+          <span
+            class="name"
+          >
+            New Task
+          </span>
+          
+
+          <div
+            class="button"
+            data-finish=""
+            data-task="0"
+            role="button"
+          >
+            Finalizar
+          </div>
+          
+
+          <div
+            class="button"
+            data-remove=""
+            data-task="0"
+            role="button"
+          >
+            Remover
+          </div>
+          
+
+        </div>
+      </div>
+      
+	
+    </div>
+    
+
+  </div>
+</body>
+`;
+
+exports[`Tudo list events DOM > Deve fazer o fluxo de tarefas 2`] = `
+<body>
+  <div
+    id="app"
+  >
+    
+	
+    <div
+      class="tudo"
+    >
+      
+		
+      <form
+        class="area-input"
+        data-submit=""
+      >
+        
+			
+        <input
+          data-input=""
+          placeholder="Nova tarefa"
+          required=""
+        />
+        
+			
+        <button>
+          Adicionar
+        </button>
+        
+		
+      </form>
+      
+		
+      <div
+        class="list"
+        data-tudo-tasks=""
+      >
+        <div
+          class="task finish"
+        >
+          
+
+          <span
+            class="name"
+          >
+            New Task
+          </span>
+          
+
+          <div
+            class="button"
+            data-finish=""
+            data-task="0"
+            role="button"
+          >
+            Reativar
+          </div>
+          
+
+          <div
+            class="button"
+            data-remove=""
+            data-task="0"
+            role="button"
+          >
+            Remover
+          </div>
+          
+
+        </div>
+      </div>
+      
+	
+    </div>
+    
+
+  </div>
+</body>
+`;
+
+exports[`Tudo list events DOM > Deve fazer o fluxo de tarefas 3`] = `
+<body>
+  <div
+    id="app"
+  >
+    
+	
+    <div
+      class="tudo"
+    >
+      
+		
+      <form
+        class="area-input"
+        data-submit=""
+      >
+        
+			
+        <input
+          data-input=""
+          placeholder="Nova tarefa"
+          required=""
+        />
+        
+			
+        <button>
+          Adicionar
+        </button>
+        
+		
+      </form>
+      
+		
+      <div
+        class="list"
+        data-tudo-tasks=""
+      />
+      
+	
+    </div>
+    
+
+  </div>
+</body>
+`;
